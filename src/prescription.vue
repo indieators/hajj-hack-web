@@ -1,15 +1,31 @@
-<template>
-  <div id="app">
-    <router-view/>
-  </div>
-</template>
+
 
 <script>
-
 export default {
-  name: 'app',
+  name: 'prescription',
+  data(){
+    return {
+      email:'',
+      password:'',
+      user: undefined,
+    }
+  },
+  created(){
+   
+    
+
+  },
+
+  methods: {
+  }
 }
 </script>
+
+<template>
+  <div>
+    <h2>prescription</h2>
+  </div>
+</template>
 
 <style>
 #app {

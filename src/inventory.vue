@@ -1,15 +1,31 @@
-<template>
-  <div id="app">
-    <router-view/>
-  </div>
-</template>
+
 
 <script>
-
 export default {
-  name: 'app',
+  name: 'inventory',
+  data(){
+    return {
+      email:'',
+      password:'',
+      user: undefined,
+    }
+  },
+  created(){
+   
+    
+
+  },
+
+  methods: {
+  }
 }
 </script>
+
+<template>
+  <div>
+    <h2>inventory</h2>
+  </div>
+</template>
 
 <style>
 #app {
