@@ -7,7 +7,7 @@ import Inventory from './inventory.vue'
 import Login from './login'
 const routes = [
   { path: '/', component: Login },
-  { path: '/pharmacy', component: Pharmacy },
+  { path: '/pharmacy',name:'pharmacy', component: Pharmacy, props: true },
   { path: '/prescription', component: Prescription },
   { path: '/inventory', component: Inventory },
 ]

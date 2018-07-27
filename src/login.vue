@@ -17,6 +17,13 @@ export default {
 
   methods: {
     login(){
+      const {email,password} = this
+      if(email ==='user@hack.code',password ==='123'){
+       const user = {id:'121qwsaxsx',username:'just-user',email:'user@hack.code'}
+        this.$router.push({ name: 'pharmacy',params:{user} })
+      }
+      
+      
     },
   }
 }
@@ -35,7 +42,6 @@ export default {
     </div>
     <p v-if ='user'>welcome {{ user.email}}</p>
     <button  v-on:click ='login()'>login</button>
-
     
   </div>
 </template>

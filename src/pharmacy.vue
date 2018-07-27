@@ -23,6 +23,7 @@ export default {
 <template>
   <div>
     <h2>pharmacy</h2>
+    <p>hi {{$route.params.user.username}}</p>
   </div>
 </template>
 
