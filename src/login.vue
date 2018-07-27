@@ -1,7 +1,7 @@
 
 
 <script>
-// test
+// 
 export default {
   name: 'login',
   data(){
