@@ -8,7 +8,7 @@ import Login from './login'
 const routes = [
   { path: '/', component: Login },
   { path: '/pharmacy',name:'pharmacy', component: Pharmacy, props: true },
-  { path: '/prescription', component: Prescription },
+  { path: '/prescription', name:'prescription' , component: Prescription,props:true },
   { path: '/inventory', component: Inventory },
 ]
 
